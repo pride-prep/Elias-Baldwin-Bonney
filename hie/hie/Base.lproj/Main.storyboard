@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -37,19 +37,43 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J39-OU-Qf5">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJw-s4-RHl">
                                 <rect key="frame" x="124" y="59" width="126" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="NEXT"/>
                                 <connections>
+                                    <action selector="fullChange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4QN-RA-Foo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J39-OU-Qf5">
+                                <rect key="frame" x="124" y="58" width="126" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="NEXT"/>
+                                <connections>
+                                    <action selector="fullChange2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s5y-44-b4u"/>
                                     <action selector="fullChange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5EA-lH-Mdd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W5P-wr-maX">
+                                <rect key="frame" x="94" y="59" width="186" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="TEXT COLOR"/>
+                                <connections>
+                                    <action selector="fullChange2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AMf-f2-wND"/>
+                                    <action selector="fullChange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iZl-BP-eFQ"/>
+                                    <action selector="textColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nyf-g4-MNC"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="Fullchange" destination="xJw-s4-RHl" id="B5b-KU-2YJ"/>
+                        <outlet property="Fullchange2" destination="J39-OU-Qf5" id="tdI-Mq-2NZ"/>
+                        <outlet property="Textcolor" destination="W5P-wr-maX" id="nYx-9K-tK5"/>
                         <outlet property="colorChange" destination="J39-OU-Qf5" id="JKc-7I-eCs"/>
                         <outlet property="helloWorld" destination="Rs2-kj-hqj" id="xIU-Ad-bxB"/>
                         <outlet property="playButton" destination="ZZK-IP-No8" id="pvO-qE-I4M"/>
