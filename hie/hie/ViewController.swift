@@ -10,11 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var Textcolor: UIButton!
-    @IBOutlet weak var Fullchange2: UIButton!
-    @IBOutlet weak var colorChange: UIButton!
+
     @IBOutlet weak var helloWorld: UILabel!
     @IBOutlet weak var playButton: UIButton!
+    @IBOutlet weak var colorChange: UIButton!
+    @IBOutlet weak var Fullchange2: UIButton!
+    @IBOutlet weak var Textcolor: UIButton!
     var index = 0;
     
     let list = [UIColor.blue, UIColor.green, UIColor.magenta]
@@ -38,10 +39,10 @@ class ViewController: UIViewController {
         playButton.isHidden = true;
         colorChange.isHidden = false;
     }
-    @IBAction func fullChange(_ sender: Any) {
-        helloWorld.text = "I CHANGE COLOR";
-        colorChange.isHidden = true;
+    @IBAction func Colorchange(_ sender: Any) {
+        helloWorld.text = "I CAN CHANGE COLOR"
         Fullchange2.isHidden = false;
+        colorChange.isHidden = true;    
     }
     @IBAction func fullChange2(_ sender: Any) {
         helloWorld.text = "COLOR CHANGER"
