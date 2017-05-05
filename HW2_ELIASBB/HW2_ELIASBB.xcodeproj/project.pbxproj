@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F289D621EBA63CB001A8E8B /* Screen Shot 2017-05-03 at 12.13.16 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F289D611EBA63CB001A8E8B /* Screen Shot 2017-05-03 at 12.13.16 PM.png */; };
+		3F2B34161EBBB4330008832E /* pic1732706_md.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F2B34131EBBB4330008832E /* pic1732706_md.jpg */; };
+		3F2B34171EBBB4330008832E /* Screen Shot 2017-05-03 at 12.13.16 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2B34141EBBB4330008832E /* Screen Shot 2017-05-03 at 12.13.16 PM.png */; };
+		3F2B34181EBBB4330008832E /* Screen Shot 2017-05-03 at 12.53.19 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2B34151EBBB4330008832E /* Screen Shot 2017-05-03 at 12.53.19 PM.png */; };
+		3F8BE6F91EBCF20A000FF0AC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8BE6F81EBCF20A000FF0AC /* SecondViewController.swift */; };
 		3FBDF1DF1EB91ADD004E5307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBDF1DE1EB91ADD004E5307 /* AppDelegate.swift */; };
 		3FBDF1E11EB91ADD004E5307 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBDF1E01EB91ADD004E5307 /* ViewController.swift */; };
 		3FBDF1E41EB91ADD004E5307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBDF1E21EB91ADD004E5307 /* Main.storyboard */; };
 		3FBDF1E61EB91ADD004E5307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBDF1E51EB91ADD004E5307 /* Assets.xcassets */; };
 		3FBDF1E91EB91ADD004E5307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBDF1E71EB91ADD004E5307 /* LaunchScreen.storyboard */; };
-		3FBDF1F51EB91E46004E5307 /* pic1732706_md.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FBDF1F41EB91E46004E5307 /* pic1732706_md.jpg */; };
-		3FD4180B1EBA6D000061C981 /* Screen Shot 2017-05-03 at 12.53.19 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD4180A1EBA6D000061C981 /* Screen Shot 2017-05-03 at 12.53.19 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F289D611EBA63CB001A8E8B /* Screen Shot 2017-05-03 at 12.13.16 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-05-03 at 12.13.16 PM.png"; path = "../Screen Shot 2017-05-03 at 12.13.16 PM.png"; sourceTree = "<group>"; };
+		3F2B34131EBBB4330008832E /* pic1732706_md.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic1732706_md.jpg; path = ../../pic1732706_md.jpg; sourceTree = "<group>"; };
+		3F2B34141EBBB4330008832E /* Screen Shot 2017-05-03 at 12.13.16 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-05-03 at 12.13.16 PM.png"; path = "../../Screen Shot 2017-05-03 at 12.13.16 PM.png"; sourceTree = "<group>"; };
+		3F2B34151EBBB4330008832E /* Screen Shot 2017-05-03 at 12.53.19 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-05-03 at 12.53.19 PM.png"; path = "../../Screen Shot 2017-05-03 at 12.53.19 PM.png"; sourceTree = "<group>"; };
+		3F8BE6F81EBCF20A000FF0AC /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		3FBDF1DB1EB91ADD004E5307 /* HW2_ELIASBB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2_ELIASBB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBDF1DE1EB91ADD004E5307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FBDF1E01EB91ADD004E5307 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,8 +30,6 @@
 		3FBDF1E51EB91ADD004E5307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FBDF1E81EB91ADD004E5307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FBDF1EA1EB91ADD004E5307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FBDF1F41EB91E46004E5307 /* pic1732706_md.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic1732706_md.jpg; path = ../pic1732706_md.jpg; sourceTree = "<group>"; };
-		3FD4180A1EBA6D000061C981 /* Screen Shot 2017-05-03 at 12.53.19 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-05-03 at 12.53.19 PM.png"; path = "../Screen Shot 2017-05-03 at 12.53.19 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,9 +48,9 @@
 			children = (
 				3FBDF1DD1EB91ADD004E5307 /* HW2_ELIASBB */,
 				3FBDF1DC1EB91ADD004E5307 /* Products */,
-				3FBDF1F41EB91E46004E5307 /* pic1732706_md.jpg */,
-				3F289D611EBA63CB001A8E8B /* Screen Shot 2017-05-03 at 12.13.16 PM.png */,
-				3FD4180A1EBA6D000061C981 /* Screen Shot 2017-05-03 at 12.53.19 PM.png */,
+				3F2B34131EBBB4330008832E /* pic1732706_md.jpg */,
+				3F2B34141EBBB4330008832E /* Screen Shot 2017-05-03 at 12.13.16 PM.png */,
+				3F2B34151EBBB4330008832E /* Screen Shot 2017-05-03 at 12.53.19 PM.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +67,7 @@
 			children = (
 				3FBDF1DE1EB91ADD004E5307 /* AppDelegate.swift */,
 				3FBDF1E01EB91ADD004E5307 /* ViewController.swift */,
+				3F8BE6F81EBCF20A000FF0AC /* SecondViewController.swift */,
 				3FBDF1E21EB91ADD004E5307 /* Main.storyboard */,
 				3FBDF1E51EB91ADD004E5307 /* Assets.xcassets */,
 				3FBDF1E71EB91ADD004E5307 /* LaunchScreen.storyboard */,
@@ -132,12 +135,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F289D621EBA63CB001A8E8B /* Screen Shot 2017-05-03 at 12.13.16 PM.png in Resources */,
+				3F2B34161EBBB4330008832E /* pic1732706_md.jpg in Resources */,
+				3F2B34171EBBB4330008832E /* Screen Shot 2017-05-03 at 12.13.16 PM.png in Resources */,
 				3FBDF1E91EB91ADD004E5307 /* LaunchScreen.storyboard in Resources */,
-				3FBDF1F51EB91E46004E5307 /* pic1732706_md.jpg in Resources */,
+				3F2B34181EBBB4330008832E /* Screen Shot 2017-05-03 at 12.53.19 PM.png in Resources */,
 				3FBDF1E61EB91ADD004E5307 /* Assets.xcassets in Resources */,
 				3FBDF1E41EB91ADD004E5307 /* Main.storyboard in Resources */,
-				3FD4180B1EBA6D000061C981 /* Screen Shot 2017-05-03 at 12.53.19 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8BE6F91EBCF20A000FF0AC /* SecondViewController.swift in Sources */,
 				3FBDF1E11EB91ADD004E5307 /* ViewController.swift in Sources */,
 				3FBDF1DF1EB91ADD004E5307 /* AppDelegate.swift in Sources */,
 			);
